@@ -14,6 +14,7 @@ if (!isset($plugin)) {
     $plugin = new stdClass(); // Avoid warnings in Moodle 2.5 and below.
 }
 
+
 $plugin->version   = 2015110800;  // The current module version (Date: YYYYMMDDXX).
 $plugin->requires  = 2010112400;  // Moodle 2.0 (or above).
 $plugin->cron      = 0;           // Period for cron to check this module (secs).
